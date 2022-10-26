@@ -4,7 +4,7 @@ from telebot import types # для указание типов
 #import export_data
 #import import_data
 
-bot = telebot.TeleBot('5633157833:AAHPma1xc5pNT6JpP-PVT9TJxiHFhBkAOZc', parse_mode=None)
+bot = telebot.TeleBot('YOU_TOKEN', parse_mode=None)
 
 @bot.message_handler(commands=['start'])
 def start(message):
